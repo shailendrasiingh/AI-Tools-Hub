@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-content">
+        <h1>Discover <span class="gradient-text">200+ AI Tools</span> for Developers</h1>
+        <p>Curated collection of the best AI-powered tools to enhance your workflow and productivity</p>
+    </div>
+</section>
+
+<section class="categories">
+    <div class="container">
+        <h2>Explore by Category</h2>
+        <div class="category-cards-horizontal">
+            <div class="category-card" data-category="learning">
+                <div class="category-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>AI Tools for Learning Support</h3>
+                <p>Content generators, coding assistants, doubt solvers, and more AI-powered learning tools</p>
+                <a href="{{ url_for('category', category_name='learning') }}" class="category-link">
+                    Explore Tools <i class="fas fa-arrow-right"></i>
+                </a>
+                <div class="tool-count">{{ categorized_tools['learning']|length }} tools</div>
+            </div>
+
+            <div class="category-card" data-category="resources">
+                <div class="category-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h3>Study Resources & Content Hub</h3>
+                <p>Test books, notes, question papers, mock tests and other educational resources</p>
+                <a href="{{ url_for('category', category_name='resources') }}" class="category-link">
+                    Explore Resources <i class="fas fa-arrow-right"></i>
+                </a>
+                <div class="tool-count">{{ categorized_tools['resources']|length }} tools</div>
+            </div>
+
+            <div class="category-card" data-category="career">
+                <div class="category-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <h3>Career & Skill Development</h3>
+                <p>Internships, scholarships, resume builders, online courses and career growth tools</p>
+                <a href="{{ url_for('category', category_name='career') }}" class="category-link">
+                    Explore Opportunities <i class="fas fa-arrow-right"></i>
+                </a>
+                <div class="tool-count">{{ categorized_tools['career']|length }} tools</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features">
+    <div class="container">
+        <h2>Why Choose AI Tools Hub?</h2>
+        <div class="features-grid">
+            <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <h3>Curated Selection</h3>
+                <p>We handpick only the best AI tools to save you time and effort.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-tags"></i>
+                <h3>Smart Categorization</h3>
+                <p>Find exactly what you need with our detailed categorization system.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-sync"></i>
+                <h3>Regular Updates</h3>
+                <p>We constantly update our database with the latest AI tools.</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

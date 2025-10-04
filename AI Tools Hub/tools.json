@@ -1,0 +1,1057 @@
+{
+  "tools": [
+    {
+      "name": "ChatGPT",
+      "page": "learning",
+      "category": "Content Generator",
+      "description": "AI conversational assistant that answers questions, explains concepts, and helps generate essays, summaries, and study plans.",
+      "url": "https://chat.openai.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/6132/6132221.png",
+      "hashtags": ["#AIWriting", "#StudyBuddy", "#Concepts"]
+    },
+    {
+      "name": "GitHub Copilot",
+      "page": "learning",
+      "category": "Coding Tools",
+      "description": "AI pair programmer that suggests code completions, entire functions, and helps learn programming patterns.",
+      "url": "https://github.com/features/copilot",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2111/2111432.png",
+      "hashtags": ["#Coding", "#AutoComplete", "#Dev"]
+    },
+    {
+      "name": "Replit Ghostwriter",
+      "page": "learning",
+      "category": "Coding Tools",
+      "description": "In-editor AI assistant for writing, debugging, and explaining code with runnable examples.",
+      "url": "https://replit.com/site/ghostwriter",
+      "icon": "https://cdn-icons-png.flaticon.com/512/919/919847.png",
+      "hashtags": ["#Coding", "#IDE", "#LearnToCode"]
+    },
+    {
+      "name": "Khanmigo (Khan Academy AI)",
+      "page": "learning",
+      "category": "Tutoring / Doubt Solver",
+      "description": "Personalized AI tutor embedded in Khan Academy to explain problems step-by-step and provide practice recommendations.",
+      "url": "https://www.khanacademy.org/khanmigo",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+      "hashtags": ["#DoubtSolver", "#Tutoring", "#Practice"]
+    },
+    {
+      "name": "Grammarly",
+      "page": "learning",
+      "category": "Writing Assistant",
+      "description": "Checks grammar, clarity, tone and gives writing suggestions for essays, reports and emails.",
+      "url": "https://www.grammarly.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2111/2111532.png",
+      "hashtags": ["#Writing", "#Proofreading", "#Academic"]
+    },
+    {
+      "name": "QuillBot",
+      "page": "learning",
+      "category": "Paraphrasing / Summarizer",
+      "description": "Paraphrase text, summarize long passages, and help refine study notes quickly.",
+      "url": "https://quillbot.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/919/919836.png",
+      "hashtags": ["#Summarizer", "#Notes", "#WritingHelp"]
+    },
+    {
+      "name": "Notion AI",
+      "page": "learning",
+      "category": "Notes Tools",
+      "description": "Generative features for note-taking, flashcards, meeting summaries and study organization.",
+      "url": "https://www.notion.so/product/ai",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+      "hashtags": ["#Notes", "#Productivity", "#Organization"]
+    },
+    {
+      "name": "Obsidian (with AI plugins)",
+      "page": "learning",
+      "category": "Notes & Knowledge",
+      "description": "Local-first knowledge base; use AI plugins to summarize, create flashcards, and build study maps.",
+      "url": "https://obsidian.md",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888847.png",
+      "hashtags": ["#Knowledge", "#Zettelkasten", "#Study"]
+    },
+    {
+      "name": "Socratic by Google",
+      "page": "learning",
+      "category": "Doubt Solver",
+      "description": "Take a photo of a problem and get step-by-step explanations, helpful for math and science homework.",
+      "url": "https://socratic.org",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888841.png",
+      "hashtags": ["#HomeworkHelp", "#Math", "#Science"]
+    },
+    {
+      "name": "Wolfram Alpha",
+      "page": "learning",
+      "category": "Computation & Solver",
+      "description": "Computational engine for mathematics, physics, statistics and data analysis with step-by-step solutions.",
+      "url": "https://www.wolframalpha.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888848.png",
+      "hashtags": ["#MathSolver", "#Computation", "#Research"]
+    },
+    {
+      "name": "CoderPad AI",
+      "page": "learning",
+      "category": "Coding Practice",
+      "description": "Platform for live coding interviews and practice with AI hints and test-case generation.",
+      "url": "https://coderpad.io",
+      "icon": "https://cdn-icons-png.flaticon.com/512/919/919832.png",
+      "hashtags": ["#CodingInterview", "#Practice", "#Algorithms"]
+    },
+    {
+      "name": "LeetCode (AI solutions)",
+      "page": "learning",
+      "category": "Coding Practice",
+      "description": "Large catalog of coding problems; AI-powered explanations and personalized practice paths.",
+      "url": "https://leetcode.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/919/919840.png",
+      "hashtags": ["#DSA", "#Practice", "#Interviews"]
+    },
+    {
+      "name": "Explain Like I’m Five (ELI5) Tools",
+      "page": "learning",
+      "category": "Concept Simplifier",
+      "description": "AI tools and plugins that simplify complex topics into easy-to-understand explanations and analogies.",
+      "url": "https://en.wikipedia.org/wiki/Explain_like_I%27m_five",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888843.png",
+      "hashtags": ["#ELI5", "#Concepts", "#Understanding"]
+    },
+    {
+      "name": "Perplexity.ai",
+      "page": "learning",
+      "category": "Research Assistant",
+      "description": "AI search and answer engine that provides concise answers with source links — great for quick research.",
+      "url": "https://www.perplexity.ai",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888846.png",
+      "hashtags": ["#Research", "#Citations", "#Study"]
+    },
+    {
+      "name": "Elicit",
+      "page": "learning",
+      "category": "Research Assistant",
+      "description": "AI research assistant for literature review, paper summarization and extracting key findings.",
+      "url": "https://elicit.org",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888845.png",
+      "hashtags": ["#Research", "#Academic", "#Papers"]
+    },
+    {
+      "name": "Paperpal",
+      "page": "learning",
+      "category": "Academic Writing",
+      "description": "Helps students draft, proofread and format academic manuscripts, with language polishing and suggestions.",
+      "url": "https://www.paperpal.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888844.png",
+      "hashtags": ["#AcademicWriting", "#Thesis", "#Research"]
+    },
+    {
+      "name": "SMMRY",
+      "page": "learning",
+      "category": "Summarizer",
+      "description": "Simple summarization tool to reduce long articles or chapters into concise bullet points for revision.",
+      "url": "https://smmry.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888850.png",
+      "hashtags": ["#Summaries", "#Revision", "#Notes"]
+    },
+    {
+      "name": "MindMeister",
+      "page": "learning",
+      "category": "Mind Map Generator",
+      "description": "Create visual mind maps to organize topics, plan essays, or outline projects — helps with memory retention.",
+      "url": "https://www.mindmeister.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888857.png",
+      "hashtags": ["#MindMap", "#StudyPlan", "#Organize"]
+    },
+    {
+      "name": "Miro",
+      "page": "learning",
+      "category": "Diagram & Whiteboard",
+      "description": "Collaborative whiteboard for flowcharts, diagrams, and group brainstorming sessions for assignments.",
+      "url": "https://miro.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888859.png",
+      "hashtags": ["#Diagrams", "#GroupWork", "#Brainstorm"]
+    },
+    {
+      "name": "Canva (AI Presentation)",
+      "page": "learning",
+      "category": "Presentation Generator",
+      "description": "Design presentations, slides and visuals quickly using AI templates and design suggestions.",
+      "url": "https://www.canva.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888846.png",
+      "hashtags": ["#Presentations", "#Design", "#Slides"]
+    },
+    {
+      "name": "Beautiful.ai",
+      "page": "learning",
+      "category": "Presentation Generator",
+      "description": "AI-powered presentation tool that helps create professional slide decks from outlines.",
+      "url": "https://www.beautiful.ai",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888860.png",
+      "hashtags": ["#Slides", "#Presentation", "#AI"]
+    },
+    {
+      "name": "Diagram Generator (diagrams.net)",
+      "page": "learning",
+      "category": "Diagram Tool",
+      "description": "Free tool (draw.io) for generating diagrams, flowcharts and technical schematics for projects.",
+      "url": "https://app.diagrams.net",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888861.png",
+      "hashtags": ["#Flowchart", "#Diagrams", "#Projects"]
+    },
+    {
+      "name": "Runway ML",
+      "page": "learning",
+      "category": "Media / Image Generation",
+      "description": "Creative AI suite for image and video generation useful for multimedia projects and portfolios.",
+      "url": "https://runwayml.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888863.png",
+      "hashtags": ["#AIArt", "#Video", "#Projects"]
+    },
+    {
+      "name": "Stable Diffusion (via multiple UIs)",
+      "page": "learning",
+      "category": "Image Generation",
+      "description": "Open-source image generation model accessible through web UIs to create visuals for assignments.",
+      "url": "https://stability.ai",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888864.png",
+      "hashtags": ["#ImageGen", "#Design", "#Creative"]
+    },
+    {
+      "name": "Hemingway Editor",
+      "page": "learning",
+      "category": "Writing Assistant",
+      "description": "Improves readability by highlighting complex sentences and passive voice — great for essays and reports.",
+      "url": "https://hemingwayapp.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888865.png",
+      "hashtags": ["#Writing", "#Clarity", "#Essay"]
+    },
+    {
+      "name": "Zotero",
+      "page": "learning",
+      "category": "Reference Manager",
+      "description": "Collect, organize and cite research sources easily — integrates with word processors.",
+      "url": "https://www.zotero.org",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888866.png",
+      "hashtags": ["#Research", "#Citations", "#Academic"]
+    },
+    {
+      "name": "Mendeley",
+      "page": "learning",
+      "category": "Reference Manager",
+      "description": "Reference manager and academic social network to store PDFs, annotate and collaborate on literature.",
+      "url": "https://www.mendeley.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888867.png",
+      "hashtags": ["#Papers", "#Research", "#Citations"]
+    },
+    {
+      "name": "Anki",
+      "page": "learning",
+      "category": "Flashcards",
+      "description": "Spaced repetition flashcards to memorise facts, formulas and vocabulary efficiently.",
+      "url": "https://apps.ankiweb.net",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888868.png",
+      "hashtags": ["#Flashcards", "#Memory", "#Revision"]
+    },
+    {
+      "name": "Brainscape",
+      "page": "learning",
+      "category": "Flashcards",
+      "description": "Adaptive flashcard platform for timed practice and cumulative learning across subjects.",
+      "url": "https://www.brainscape.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888869.png",
+      "hashtags": ["#Flashcards", "#Study", "#Retention"]
+    },
+    {
+      "name": "Socratic Question Solver (Web aggregators)",
+      "page": "learning",
+      "category": "Doubt Solver",
+      "description": "Aggregated tools that explain textbook problems and provide stepwise approaches for exam practice.",
+      "url": "https://socratic.org",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888841.png",
+      "hashtags": ["#Doubts", "#Homework", "#Steps"]
+    },
+    {
+      "name": "Physics Wallah (PW) Resources",
+      "page": "resources",
+      "category": "Testprep Platform",
+      "description": "Courses, PDFs and video lectures for competitive exam aspirants in India (JEE/NEET) and general subjects.",
+      "url": "https://www.pw.live",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888870.png",
+      "hashtags": ["#JEE", "#NEET", "#ExamPrep"]
+    },
+    {
+      "name": "Testbook",
+      "page": "resources",
+      "category": "Test Prep & PYQs",
+      "description": "Mock tests, previous year question papers and detailed solutions for government and competitive exams.",
+      "url": "https://testbook.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888871.png",
+      "hashtags": ["#MockTests", "#PYQ", "#GovtExams"]
+    },
+    {
+      "name": "Gradeup (BYJU's Exam Prep)",
+      "page": "resources",
+      "category": "Mock Tests & PYQ",
+      "description": "Live classes, quizzes and test series across a wide range of entrance and competitive exams.",
+      "url": "https://byjusexamprep.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888872.png",
+      "hashtags": ["#MockTests", "#Quizzes", "#Preparation"]
+    },
+    {
+      "name": "IndiaBIX",
+      "page": "resources",
+      "category": "PYQ & Practice",
+      "description": "Huge archive of aptitude questions, solved examples and interview practice problems.",
+      "url": "https://www.indiabix.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888873.png",
+      "hashtags": ["#Aptitude", "#PYQ", "#Practice"]
+    },
+    {
+      "name": "NTA (Official) - Exam Notices & PYQs",
+      "page": "resources",
+      "category": "Official Papers",
+      "description": "Official portal for national testing agency exams, admit cards, and previous year papers.",
+      "url": "https://nta.ac.in",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888874.png",
+      "hashtags": ["#Official", "#AdmitCard", "#PYQ"]
+    },
+    {
+      "name": "e-Pathshala",
+      "page": "resources",
+      "category": "Free Textbooks & PDFs",
+      "description": "Government-run repository of textbooks and study material in PDF format for school-level students.",
+      "url": "https://epathshala.nic.in",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888875.png",
+      "hashtags": ["#PDFs", "#Textbooks", "#Free"]
+    },
+    {
+      "name": "National Digital Library of India (NDLI)",
+      "page": "resources",
+      "category": "Digital Library",
+      "description": "Centralised digital library with textbooks, articles, theses and previous year papers for students.",
+      "url": "https://ndl.iitkgp.ac.in",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888876.png",
+      "hashtags": ["#Library", "#PDF", "#Research"]
+    },
+    {
+      "name": "Exam-specific PYQ hubs (IITJEE/NEET/UPSC)",
+      "page": "resources",
+      "category": "PYQ Collections",
+      "description": "Aggregated previous year question papers across boards and competitive exams with solutions and downloads.",
+      "url": "https://example.com/pyq-hub",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888877.png",
+      "hashtags": ["#PYQ", "#ExamPrep", "#Downloads"]
+    },
+    {
+      "name": "MYLIBRARY (University Repositories)",
+      "page": "resources",
+      "category": "Academic PDFs",
+      "description": "Collections of lecture notes, course PDFs and sample papers provided by universities and professors.",
+      "url": "https://universityrepository.example.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888878.png",
+      "hashtags": ["#LectureNotes", "#PDF", "#Academia"]
+    },
+    {
+      "name": "Google Scholar",
+      "page": "resources",
+      "category": "Research Papers",
+      "description": "Search academic literature for research projects, citations and scholarly articles.",
+      "url": "https://scholar.google.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+      "hashtags": ["#Papers", "#Research", "#Citations"]
+    },
+    {
+      "name": "Class Central",
+      "page": "career",
+      "category": "Course Aggregator",
+      "description": "Search and compare free and paid online courses from top providers to build skills and certificates.",
+      "url": "https://www.classcentral.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888880.png",
+      "hashtags": ["#Courses", "#MOOCs", "#Skills"]
+    },
+    {
+      "name": "Coursera",
+      "page": "career",
+      "category": "Online Courses",
+      "description": "University-backed online courses and specializations to upskill for internships and jobs.",
+      "url": "https://www.coursera.org",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888881.png",
+      "hashtags": ["#Coursera", "#Specializations", "#Certificates"]
+    },
+    {
+      "name": "edX",
+      "page": "career",
+      "category": "Online Courses",
+      "description": "High-quality MOOCs from universities that help build domain knowledge and credentials.",
+      "url": "https://www.edx.org",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888882.png",
+      "hashtags": ["#MOOC", "#UniversityCourses", "#Career"]
+    },
+    {
+      "name": "Udemy",
+      "page": "career",
+      "category": "Online Courses",
+      "description": "Large marketplace of practical courses for specific skills like web dev, ML, design and more.",
+      "url": "https://www.udemy.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888883.png",
+      "hashtags": ["#SkillUp", "#Professional", "#Courses"]
+    },
+    {
+      "name": "LinkedIn Learning",
+      "page": "career",
+      "category": "Online Courses",
+      "description": "Short professional courses focused on business, tech and creative skills; integrates with LinkedIn profiles.",
+      "url": "https://www.linkedin.com/learning",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888884.png",
+      "hashtags": ["#CareerSkills", "#Certificates", "#LinkedIn"]
+    },
+    {
+      "name": "Internshala",
+      "page": "career",
+      "category": "Internships",
+      "description": "Popular Indian platform listing internships across domains, remote internships and student-friendly roles.",
+      "url": "https://internshala.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888885.png",
+      "hashtags": ["#Internships", "#StudentJobs", "#Experience"]
+    },
+    {
+      "name": "AngelList (Wellfound)",
+      "page": "career",
+      "category": "Internships & Jobs",
+      "description": "Startup jobs and internships — filter for remote, paid and early-career friendly roles.",
+      "url": "https://angel.co",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888886.png",
+      "hashtags": ["#Startups", "#Internships", "#Jobs"]
+    },
+    {
+      "name": "Handshake",
+      "page": "career",
+      "category": "University Placements",
+      "description": "Campus-focused job platform connecting students with employers and internship opportunities.",
+      "url": "https://joinhandshake.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888887.png",
+      "hashtags": ["#CampusRecruitment", "#Jobs", "#Internships"]
+    },
+    {
+      "name": "ScholarshipPortal",
+      "page": "career",
+      "category": "Scholarships",
+      "description": "Search scholarships and grants worldwide by level, country and field of study.",
+      "url": "https://www.scholarshipportal.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888888.png",
+      "hashtags": ["#Scholarships", "#Funding", "#StudyAbroad"]
+    },
+    {
+      "name": "Chegg Study",
+      "page": "resources",
+      "category": "Solution Library",
+      "description": "Step-by-step solutions for textbook problems, expert Q&A and study help (subscription-based).",
+      "url": "https://www.chegg.com/study",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888889.png",
+      "hashtags": ["#Solutions", "#TextbookHelp", "#Study"]
+    },
+    {
+      "name": "Byju's Classes",
+      "page": "resources",
+      "category": "Course Platform",
+      "description": "Video lectures, practice and revision material for school and competitive exams (India-centric).",
+      "url": "https://byjus.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888890.png",
+      "hashtags": ["#VideoLessons", "#ExamPrep", "#School"]
+    },
+    {
+      "name": "Scribe AI (Notes to Summary)",
+      "page": "learning",
+      "category": "Notes Summarizer",
+      "description": "Upload long notes or lecture transcripts and get concise summaries, bullet points and flashcards.",
+      "url": "https://scribe.ai",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888891.png",
+      "hashtags": ["#Summarizer", "#LectureNotes", "#StudyAid"]
+    },
+    {
+      "name": "PaperDrop (PDF search)",
+      "page": "resources",
+      "category": "PDF & Notes Search",
+      "description": "Search and download lecture notes, solved papers and PDFs uploaded by educators and students.",
+      "url": "https://paperdrop.example.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888892.png",
+      "hashtags": ["#PDFs", "#Notes", "#Downloads"]
+    },
+    {
+      "name": "OpenStax",
+      "page": "resources",
+      "category": "Free Textbooks",
+      "description": "Peer-reviewed, openly licensed textbooks (free) for college courses in multiple disciplines.",
+      "url": "https://openstax.org",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888893.png",
+      "hashtags": ["#FreeTextbooks", "#OpenEducation", "#PDF"]
+    },
+    {
+      "name": "Project Gutenberg",
+      "page": "resources",
+      "category": "Free Books & PDFs",
+      "description": "Free eBook library ideal for literature, humanities and reference reading materials.",
+      "url": "https://www.gutenberg.org",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888894.png",
+      "hashtags": ["#eBooks", "#Literature", "#Free"]
+    },
+    {
+      "name": "Swayam",
+      "page": "career",
+      "category": "Government Courses",
+      "description": "Indian government MOOC platform offering free course material and certification across universities.",
+      "url": "https://swayam.gov.in",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888895.png",
+      "hashtags": ["#MOOC", "#India", "#FreeCourses"]
+    },
+    {
+      "name": "Resume.io",
+      "page": "career",
+      "category": "Resume/Portfolio",
+      "description": "Template-based resume builder with tips and content suggestions to tailor resumes for roles.",
+      "url": "https://resume.io",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888896.png",
+      "hashtags": ["#Resume", "#CV", "#Career"]
+    },
+    {
+      "name": "Canva Resume Builder",
+      "page": "career",
+      "category": "Resume/Design",
+      "description": "Designer templates and AI suggestions to build eye-catching resumes and portfolios quickly.",
+      "url": "https://www.canva.com/resumes",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888897.png",
+      "hashtags": ["#ResumeDesign", "#Portfolio", "#Career"]
+    },
+    {
+      "name": "FlowCV",
+      "page": "career",
+      "category": "Resume/Builder",
+      "description": "Simple and free resume builder focused on content-first resumes tailored to recruiters.",
+      "url": "https://flowcv.io",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888898.png",
+      "hashtags": ["#CV", "#Templates", "#Career"]
+    },
+    {
+      "name": "Resume Worded",
+      "page": "career",
+      "category": "Resume Feedback",
+      "description": "Automated resume feedback and scoring with suggestions to improve recruiter fit and ATS compatibility.",
+      "url": "https://resumeworded.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888899.png",
+      "hashtags": ["#ResumeTips", "#ATS", "#CareerAdvice"]
+    },
+    {
+      "name": "Pramp",
+      "page": "career",
+      "category": "Interview Practice",
+      "description": "Peer-to-peer mock interview platform for coding, system design and behavioral interviews.",
+      "url": "https://www.pramp.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888900.png",
+      "hashtags": ["#MockInterview", "#Coding", "#Practice"]
+    },
+    {
+      "name": "InterviewBit",
+      "page": "career",
+      "category": "Interview Prep",
+      "description": "Guided interview prep with interview experiences, coding problems and company-wise tracks.",
+      "url": "https://www.interviewbit.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888901.png",
+      "hashtags": ["#InterviewPrep", "#Coding", "#Companies"]
+    },
+    {
+      "name": "Glassdoor",
+      "page": "career",
+      "category": "Company Research",
+      "description": "Company reviews, salary insights and interview questions to prepare for placements and internships.",
+      "url": "https://www.glassdoor.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888902.png",
+      "hashtags": ["#Salaries", "#Reviews", "#Interview"]
+    },
+    {
+      "name": "Kaggle",
+      "page": "learning",
+      "category": "Data Science Practice",
+      "description": "Datasets, kernels and competitions to practice machine learning and data analysis skills.",
+      "url": "https://www.kaggle.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888903.png",
+      "hashtags": ["#DataScience", "#ML", "#Competitions"]
+    },
+    {
+      "name": "Fast.ai",
+      "page": "career",
+      "category": "Free ML Courses",
+      "description": "Practical deep learning courses and a supportive community to build ML projects and portfolios.",
+      "url": "https://www.fast.ai",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888904.png",
+      "hashtags": ["#DeepLearning", "#MOOC", "#Projects"]
+    },
+    {
+      "name": "HackerRank",
+      "page": "learning",
+      "category": "Coding Practice",
+      "description": "Practice coding problems and take part in contests; company-specific prep resources available.",
+      "url": "https://www.hackerrank.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888905.png",
+      "hashtags": ["#Coding", "#Contests", "#Practice"]
+    },
+    {
+      "name": "Codecademy",
+      "page": "learning",
+      "category": "Interactive Courses",
+      "description": "Hands-on interactive coding courses that teach languages and development workflows from scratch.",
+      "url": "https://www.codecademy.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888906.png",
+      "hashtags": ["#LearnToCode", "#Interactive", "#Beginners"]
+    },
+    {
+      "name": "Brilliant",
+      "page": "learning",
+      "category": "Concept Practice",
+      "description": "Active problem-solving courses for math, physics and computer science to build intuition.",
+      "url": "https://www.brilliant.org",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888907.png",
+      "hashtags": ["#ProblemSolving", "#Math", "#Physics"]
+    },
+    {
+      "name": "Scribd (Study Docs)",
+      "page": "resources",
+      "category": "Study Documents",
+      "description": "Large library of study guides, solved papers and notes; subscription-based access for some content.",
+      "url": "https://www.scribd.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888908.png",
+      "hashtags": ["#Notes", "#Documents", "#StudyMaterials"]
+    },
+    {
+      "name": "PDF Drive",
+      "page": "resources",
+      "category": "PDF Search",
+      "description": "Search engine for free PDFs, textbooks and guides useful for coursework and exam prep.",
+      "url": "https://www.pdfdrive.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888909.png",
+      "hashtags": ["#PDF", "#Textbooks", "#Free"]
+    },
+    {
+      "name": "OpenAI Codex (APIs)",
+      "page": "learning",
+      "category": "Coding Assistant",
+      "description": "Model APIs for code generation, understanding and building coding tools or automation for study tasks.",
+      "url": "https://platform.openai.com/docs/models/codex",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888910.png",
+      "hashtags": ["#APIs", "#CodingAI", "#Automation"]
+    },
+    {
+      "name": "Scholarships.com",
+      "page": "career",
+      "category": "Scholarships",
+      "description": "Database of scholarships and financial aid opportunities for undergraduate and graduate students.",
+      "url": "https://www.scholarships.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888911.png",
+      "hashtags": ["#Funding", "#Scholarships", "#FinancialAid"]
+    },
+    {
+      "name": "FastCompany (Student Resources)",
+      "page": "resources",
+      "category": "Career Articles",
+      "description": "Articles and guides on internships, résumé building and early career strategies for students.",
+      "url": "https://www.fastcompany.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888912.png",
+      "hashtags": ["#CareerAdvice", "#Internships", "#Resumes"]
+    },
+    {
+      "name": "OpenAI Playground",
+      "page": "learning",
+      "category": "Experimentation",
+      "description": "Experiment with large language models for generating study notes, practice questions and explanations.",
+      "url": "https://platform.openai.com/playground",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888913.png",
+      "hashtags": ["#LLM", "#Experiment", "#StudyTools"]
+    },
+    {
+      "name": "TED-Ed",
+      "page": "resources",
+      "category": "Video Lessons",
+      "description": "Short animated lessons and explanatory videos for a variety of academic and curiosity-driven topics.",
+      "url": "https://ed.ted.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888914.png",
+      "hashtags": ["#Videos", "#ShortLessons", "#Concepts"]
+    },
+    {
+      "name": "YouTube EDU",
+      "page": "resources",
+      "category": "Video Lectures",
+      "description": "Educational playlists, lecture series and tutorial channels across subjects and competitive exams.",
+      "url": "https://www.youtube.com/education",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888915.png",
+      "hashtags": ["#VideoLectures", "#Tutorials", "#Learning"]
+    },
+    {
+      "name": "Socratic PYQ Aggregator",
+      "page": "resources",
+      "category": "PYQ & Mock Tests",
+      "description": "Aggregates previous year papers and mock test links from trusted sources for quick practice and download.",
+      "url": "https://example.com/pyq-aggregator",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888916.png",
+      "hashtags": ["#PYQ", "#MockTests", "#Practice"]
+    },
+    {
+      "name": "Toppr",
+      "page": "resources",
+      "category": "Test Prep",
+      "description": "Interactive learning platform with tests, notes and video lessons for school and competitive exams.",
+      "url": "https://www.toppr.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888917.png",
+      "hashtags": ["#TestPrep", "#School", "#Videos"]
+    },
+    {
+      "name": "Adda247",
+      "page": "resources",
+      "category": "Government Exam Prep",
+      "description": "Comprehensive mock tests, live classes and solved PYQs for banking, SSC and other government exams.",
+      "url": "https://www.adda247.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888918.png",
+      "hashtags": ["#GovtExams", "#MockTests", "#PYQ"]
+    },
+    {
+      "name": "Vedantu",
+      "page": "learning",
+      "category": "Live Classes",
+      "description": "Live interactive classes for school and entrance exam preparation with doubt-solving sessions.",
+      "url": "https://www.vedantu.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888919.png",
+      "hashtags": ["#LiveClasses", "#DoubtSolving", "#Tutoring"]
+    },
+    {
+      "name": "TL;DR AI (Auto Summaries)",
+      "page": "learning",
+      "category": "Summarizer",
+      "description": "Automatically generate TL;DRs and study-friendly summaries from long chapters and articles.",
+      "url": "https://tldr.example.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888920.png",
+      "hashtags": ["#TLDR", "#Summaries", "#Revision"]
+    },
+    {
+      "name": "Socratic Scan (mobile)",
+      "page": "learning",
+      "category": "Photo Problem Solver",
+      "description": "Mobile-first tool: scan textbook problems and receive AI hints, worked solutions and short explanations.",
+      "url": "https://socratic.org/mobile",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888841.png",
+      "hashtags": ["#ScanSolve", "#Mobile", "#Homework"]
+    },
+    {
+      "name": "Exam Countdown & Planner Tools",
+      "page": "learning",
+      "category": "Study Planner",
+      "description": "Online planners that create study timetables, revision calendars and track progress with reminders.",
+      "url": "https://studyplanner.example.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888921.png",
+      "hashtags": ["#Planner", "#Timetable", "#Progress"]
+    },
+    {
+      "name": "PrepAI Question Generator",
+      "page": "learning",
+      "category": "Question Generator",
+      "description": "Generate practice questions, quizzes and mock tests from chapters or uploaded notes for self-testing.",
+      "url": "https://prepai.example.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888922.png",
+      "hashtags": ["#PracticeQuestions", "#MockTest", "#SelfAssess"]
+    },
+    {
+      "name": "MyStudyLife",
+      "page": "learning",
+      "category": "Planner & Tasks",
+      "description": "Cross-platform planner for students to manage classes, assignments and revision schedules.",
+      "url": "https://www.mystudylife.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888923.png",
+      "hashtags": ["#Tasks", "#Planner", "#StudentLife"]
+    },
+    {
+      "name": "Socratic Tutor Bots (Discord/Telegram)",
+      "page": "learning",
+      "category": "Community Tutors",
+      "description": "Community-driven bots and groups that provide fast answers, PYQs and shared notes from peers.",
+      "url": "https://discord.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888924.png",
+      "hashtags": ["#Community", "#StudyGroups", "#NotesShare"]
+    },
+    {
+      "name": "Google Drive (Study Folder Templates)",
+      "page": "resources",
+      "category": "Cloud Storage",
+      "description": "Organize lecture PDFs, PYQs and shared notes with templates for academic organization.",
+      "url": "https://drive.google.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888925.png",
+      "hashtags": ["#Cloud", "#Notes", "#Collaboration"]
+    },
+    {
+      "name": "Dropbox Paper",
+      "page": "resources",
+      "category": "Collaborative Docs",
+      "description": "Collaborative documents for group projects, meeting notes and shared revision plans.",
+      "url": "https://www.dropbox.com/paper",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888926.png",
+      "hashtags": ["#Collaboration", "#Projects", "#Notes"]
+    },
+    {
+      "name": "PeerScholar (Peer review)",
+      "page": "resources",
+      "category": "Peer Review & Feedback",
+      "description": "Platforms that help students get feedback on essays and projects from peers and tutors.",
+      "url": "https://peerscholar.example.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888927.png",
+      "hashtags": ["#Feedback", "#PeerReview", "#Improve"]
+    },
+    {
+      "name": "Google Forms (Quiz Maker)",
+      "page": "resources",
+      "category": "Quiz & Test Maker",
+      "description": "Create quick mock tests and quizzes for self-assessment and group practice sessions.",
+      "url": "https://forms.google.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888928.png",
+      "hashtags": ["#Quizzes", "#MockTest", "#Assessment"]
+    },
+    {
+      "name": "ProProfs Quiz Maker",
+      "page": "resources",
+      "category": "Mock Tests",
+      "description": "Build timed online mock tests with analytics for performance improvement.",
+      "url": "https://www.proprofs.com/quiz-school",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888929.png",
+      "hashtags": ["#MockTests", "#Analytics", "#Practice"]
+    },
+    {
+      "name": "Top Companies PYQ Bank",
+      "page": "career",
+      "category": "Interview PYQs",
+      "description": "Collections of company-specific previous interview questions and take-home tasks to practice for placements.",
+      "url": "https://example.com/company-pyqs",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888930.png",
+      "hashtags": ["#InterviewQuestions", "#Companies", "#Prep"]
+    },
+    {
+      "name": "GitHub Student Pack",
+      "page": "career",
+      "category": "Student Offers",
+      "description": "Free and discounted tools for students including cloud credits, design tools and developer services.",
+      "url": "https://education.github.com/pack",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888931.png",
+      "hashtags": ["#StudentPerks", "#Free", "#Developer"]
+    },
+    {
+      "name": "Google Career Certificates",
+      "page": "career",
+      "category": "Career Programs",
+      "description": "Professional certificates to build job-ready skills in IT support, data analytics and UX design.",
+      "url": "https://grow.google/certificates",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888932.png",
+      "hashtags": ["#Certificates", "#JobsReady", "#Skills"]
+    },
+    {
+      "name": "Patent and Project Portfolios (student tools)",
+      "page": "career",
+      "category": "Portfolio Builder",
+      "description": "Tools and templates to prepare project portfolios and document research outcomes for applications.",
+      "url": "https://portfolio.example.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888933.png",
+      "hashtags": ["#Portfolio", "#Projects", "#Applications"]
+    },
+    {
+      "name": "Scholarship Search (Local & International)",
+      "page": "career",
+      "category": "Scholarship Aggregator",
+      "description": "Aggregators that list scholarships, eligibility criteria and deadline reminders for students worldwide.",
+      "url": "https://scholarshipsearch.example.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888934.png",
+      "hashtags": ["#Deadlines", "#Funding", "#Scholarships"]
+    },
+    {
+      "name": "Upwork (Freelance for Students)",
+      "page": "career",
+      "category": "Freelance & Gigs",
+      "description": "Find short-term projects and freelance gigs to build experience and earn while studying.",
+      "url": "https://www.upwork.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888935.png",
+      "hashtags": ["#Freelance", "#GigWork", "#Experience"]
+    },
+    {
+      "name": "Fiverr",
+      "page": "career",
+      "category": "Freelance Market",
+      "description": "Offer services like design, content writing and coding as a student to build a portfolio and earn.",
+      "url": "https://www.fiverr.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888936.png",
+      "hashtags": ["#Freelance", "#Portfolio", "#Gigs"]
+    },
+    {
+      "name": "Skillshare",
+      "page": "career",
+      "category": "Creative Courses",
+      "description": "Short project-based courses in design, photography, video and business to build creative portfolios.",
+      "url": "https://www.skillshare.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888937.png",
+      "hashtags": ["#Creative", "#Projects", "#Portfolio"]
+    },
+    {
+      "name": "ResearchGate",
+      "page": "resources",
+      "category": "Academic Network",
+      "description": "Connect with researchers, find papers and request full texts for research assignments and projects.",
+      "url": "https://www.researchgate.net",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888938.png",
+      "hashtags": ["#Research", "#Papers", "#Collaboration"]
+    },
+    {
+      "name": "Google Colab",
+      "page": "learning",
+      "category": "Notebook & Experiments",
+      "description": "Run Python notebooks in the cloud, experiment with ML models and share reproducible code for projects.",
+      "url": "https://colab.research.google.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888939.png",
+      "hashtags": ["#Notebooks", "#ML", "#Experiments"]
+    },
+    {
+      "name": "Chegg Math Solver",
+      "page": "learning",
+      "category": "Problem Solver",
+      "description": "Step-by-step solutions and calculators for math problems to verify workings and understand methods.",
+      "url": "https://www.chegg.com/homework-help/math",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888940.png",
+      "hashtags": ["#MathHelp", "#Solutions", "#Homework"]
+    },
+    {
+      "name": "SAS Learning",
+      "page": "career",
+      "category": "Data Analytics Courses",
+      "description": "Training and certifications in analytics and data science useful for CV building and internships.",
+      "url": "https://www.sas.com/en_us/learn.html",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888941.png",
+      "hashtags": ["#Analytics", "#Certification", "#Career"]
+    },
+    {
+      "name": "Microsoft Learn",
+      "page": "career",
+      "category": "Certifications",
+      "description": "Free learning paths and certifications in Azure, Microsoft 365 and other technologies to boost employability.",
+      "url": "https://learn.microsoft.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888942.png",
+      "hashtags": ["#Azure", "#Certifications", "#Skills"]
+    },
+    {
+      "name": "Codecov & CI Tools for Student Projects",
+      "page": "career",
+      "category": "Developer Tools",
+      "description": "Platforms that help students add testing, CI and code quality badges to project portfolios.",
+      "url": "https://about.codecov.io",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888943.png",
+      "hashtags": ["#CI", "#DevOps", "#Projects"]
+    },
+    {
+      "name": "Project Gutenberg (study classics)",
+      "page": "resources",
+      "category": "Free Books",
+      "description": "Free public domain books for literature courses and humanities reading lists.",
+      "url": "https://www.gutenberg.org",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888894.png",
+      "hashtags": ["#Classics", "#FreeBooks", "#Humanities"]
+    },
+    {
+      "name": "FutureLearn",
+      "page": "career",
+      "category": "Online Courses",
+      "description": "Short online courses from universities and cultural institutions to gain micro-credentials.",
+      "url": "https://www.futurelearn.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888944.png",
+      "hashtags": ["#Microcredential", "#OnlineCourse", "#Skills"]
+    },
+    {
+      "name": "MockTest Engines (generic)",
+      "page": "resources",
+      "category": "Mock Tests",
+      "description": "Multiple vendor mock test engines that simulate exam environments for time and stress practice.",
+      "url": "https://example.com/mock-engines",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888945.png",
+      "hashtags": ["#MockExam", "#Simulation", "#Practice"]
+    },
+    {
+      "name": "OpenReview (conferences)",
+      "page": "resources",
+      "category": "Academic Conferences",
+      "description": "Find call-for-papers, open reviews and community discussion useful for research-oriented students.",
+      "url": "https://openreview.net",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888946.png",
+      "hashtags": ["#CFP", "#Research", "#Conferences"]
+    },
+    {
+      "name": "Turnitin (plagiarism check)",
+      "page": "learning",
+      "category": "Plagiarism Checker",
+      "description": "Industry-standard plagiarism detection tool often used by universities to ensure academic integrity.",
+      "url": "https://www.turnitin.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888947.png",
+      "hashtags": ["#Plagiarism", "#AcademicIntegrity", "#Papers"]
+    },
+    {
+      "name": "Citation Machine",
+      "page": "learning",
+      "category": "Citation Generator",
+      "description": "Generate properly formatted citations (APA, MLA, Chicago) for essays and research assignments.",
+      "url": "https://www.citationmachine.net",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888948.png",
+      "hashtags": ["#Citations", "#References", "#Academic"]
+    },
+    {
+      "name": "LanguageTool",
+      "page": "learning",
+      "category": "Writing Assistant",
+      "description": "Multilingual grammar, style and spell-checker for non-native English speakers and multilingual students.",
+      "url": "https://languagetool.org",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888949.png",
+      "hashtags": ["#Grammar", "#Multilingual", "#Writing"]
+    },
+    {
+      "name": "PaperDrive (AI PDF summarizer)",
+      "page": "resources",
+      "category": "PDF Summarizer",
+      "description": "Upload long PDFs and receive chapter-wise summaries and key-point extraction for fast revision.",
+      "url": "https://paperdrive.example.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888950.png",
+      "hashtags": ["#PDFSummaries", "#Revision", "#Study"]
+    },
+    {
+      "name": "Scholarcy",
+      "page": "resources",
+      "category": "Paper Summarizer",
+      "description": "Summarize academic papers automatically into highlights, flashcards and structured summaries.",
+      "url": "https://www.scholarcy.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888951.png",
+      "hashtags": ["#PaperSummary", "#Research", "#Highlights"]
+    },
+    {
+      "name": "Papers with Code",
+      "page": "resources",
+      "category": "Research & Code",
+      "description": "Find academic papers together with open-source code implementations — great for ML projects.",
+      "url": "https://paperswithcode.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888952.png",
+      "hashtags": ["#ML", "#ResearchCode", "#Projects"]
+    },
+    {
+      "name": "Mindomo",
+      "page": "learning",
+      "category": "Mind Map Generator",
+      "description": "Create structured mind maps that can be converted into outlines and study notes.",
+      "url": "https://www.mindomo.com",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888953.png",
+      "hashtags": ["#MindMap", "#Outlines", "#Study"]
+    },
+    {
+      "name": "ExamComplaints & Discussion Forums",
+      "page": "resources",
+      "category": "Community & Forums",
+      "description": "Forums where students share PYQs, exam experiences, answer keys and unofficial discussions.",
+      "url": "https://reddit.com/r/ExamPrep",
+      "icon": "https://cdn-icons-png.flaticon.com/512/888/888954.png",
+      "hashtags": ["#Forums", "#PYQ", "#Community"]
+    }
+  ]
+}

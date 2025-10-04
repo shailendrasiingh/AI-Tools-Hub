@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="category-header">
+        <h1>{{ category_title }}</h1>
+        <p>{{ category_description }}</p>
+    </div>
+
+    <!-- Filter Section - Now available for ALL categories -->
+    <div class="filter-section">
+        <form method="GET" action="{{ url_for('category', category_name=category_name) }}" class="search-form">
+            <div class="search-box">
+                <input type="text" name="q" value="{{ search_query }}" placeholder="Search {{ category_title }}...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+            
+            {% if search_query %}
+            <a href="{{ url_for('category', category_name=category_name, hashtag=selected_hashtag) }}" class="clear-filter">
+                Clear search
+            </a>
+            {% endif %}
+        </form>
+        
+        {% if all_hashtags %}
+        <!-- <div class="hashtags-container"> -->
+            <h3>Filter by tags:</h3>
+            <div class="hashtags">
+                {% for tag in all_hashtags %}
+                <a href="{{ url_for('category', category_name=category_name, q=search_query, hashtag=tag) }}" 
+                   class="hashtag {% if selected_hashtag == tag %}active{% endif %}">
+                    {{ tag }}
+                </a>
+                {% endfor %}
+                
+                {% if selected_hashtag %}
+                <a href="{{ url_for('category', category_name=category_name, q=search_query) }}" class="clear-filter">
+                    Clear filter
+                </a>
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="tools-container">
+        {% if tools %}
+            {% for tool in tools %}
+            <div class="tool-card">
+                <div class="tool-header">
+                    <div class="tool-icon">
+                        {% if tool.icon %}
+                        <img src="{{ tool.icon }}" alt="{{ tool.name }} logo">
+                        {% else %}
+                        <i class="fas fa-robot"></i>
+                        {% endif %}
+                    </div>
+                    <div>
+                        <h3 class="tool-name">{{ tool.name }}</h3>
+                        <div class="tool-category">{{ tool.category }}</div>
+                    </div>
+                </div>
+                <div class="tool-body">
+                    <p class="tool-description">{{ tool.description }}</p>
+                    <div class="tool-tags">
+                        {% for tag in tool.hashtags %}
+                        <span class="tool-tag">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="tool-footer">
+                    <a href="{{ tool.url }}" target="_blank" class="visit-button">Visit Website</a>
+                </div>
+            </div>
+            {% endfor %}
+        {% else %}
+            <div class="no-results">
+                <i class="fas fa-search"></i>
+                <h3>No tools found</h3>
+                <p>Try adjusting your search or filter criteria</p>
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

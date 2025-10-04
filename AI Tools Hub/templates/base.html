@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}AI Tools Directory{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="{{ url_for('index') }}">
+                        <i class="fas fa-robot"></i>
+                        <span>AI Tools Hub</span>
+                    </a>
+                </div>
+                <div class="nav-menu">
+                    <a href="{{ url_for('index') }}" class="nav-link">Home</a>
+                    <a href="{{ url_for('about') }}" class="nav-link">About</a>
+                    <a href="{{ url_for('contact') }}" class="nav-link">Contact</a>
+                    <a href="{{ url_for('faq') }}" class="nav-link">FAQ</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>AI Tools Hub</h3>
+                <p>Your comprehensive directory for AI-powered tools and resources.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                    <li><a href="{{ url_for('faq') }}">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="{{ url_for('privacy') }}">Privacy Policy</a></li>
+                    <li><a href="{{ url_for('terms') }}">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope"></i> info@aitoolshub.com</p>
+                <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                <p><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 AI Tools Hub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
